@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block {
+  width: 50%;
+  height: 100;
+}
+
+.hidden {
+  display: none;
+}
+
+#alert{
+  width:  100%;
+  height: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-12%);
+  text-align: center;
+}
+#alert h1{
+  font-size: 60px;
+  line-height: 100px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+#alert h2{
+  font-size: 30px;
+}
+
+.done{
+  animation-duration: 1s ;
+  animation-name: Slide;
+}
+
+@keyframes Slide {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 50%;
+  }
+}
+
+.btn{
+  animation-duration: 1s;
+  animation-name: btnSlide;
+}
+
+@keyframes btnSlide {
+  0% {
+    background-color: pink;
+  }
+  20%{
+    background-color: PaleVioletRed;
+  }
+  40%{
+    background-color: MediumOrchid;
+  }
+  60%{
+    background-color: RebeccaPurple;
+  }
+  80%{
+    background-color:	HotPink;
+  }
+  100%{
+    background-color: LightSalmon;
+  }
+}
+
+#image {
+  background-image: url("../Image/IndexImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#form #form_block {
+  width: 60%;
+  height: 49%;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+form {
+  width: 100%;
+  height: 100%;
+}
+
+form h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 55px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+form input {
+  width: 86%;
+  height: 13%;
+  border: 2px solid black;
+  border-radius: 100px;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 6%;
+  margin-left: 7%;
+  -webkit-transition: .1s;
+  transition: .1s;
+}
+
+form input:hover {
+  border: 3px solid black;
+}
+
+form button {
+  width: 50%;
+  height: 13%;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  outline: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 0 20px;
+  background-color: #000;
+  margin-left: 25%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+form button:hover {
+  border: none;
+  background-color: #ED8486;
+}
+/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
